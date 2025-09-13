@@ -14,7 +14,7 @@ variable "region" {
 variable "amis" {
   type = map(any)
   default = {
-    "ap-southeast-1" : "ami-0e4b5d31e60aa0acd"
-    "ap-northeast-1" : "ami-0dfa284c9d7b2adad"
+    "ap-southeast-1" : "ami-0abd2d0501963c350"
+    "ap-northeast-1" : "ami-0228232d282f16465"
   }
 }

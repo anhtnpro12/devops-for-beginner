@@ -1,2 +1,2 @@
-image_id="ami-0e4b5d31e60aa0acd"
-instance_type="t3.medium"
+image_id="ami-0abd2d0501963c350"
+instance_type="t3.micro"
