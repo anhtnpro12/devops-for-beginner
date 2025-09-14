@@ -85,7 +85,7 @@ module "application" {
   alb_sg_id       = module.security.alb_sg_id
   mongodb_ip      = module.storage.private_ip
   ami = var.app_ami
-  depends_on = [
+  depends_on = [ # Tạo phụ thuộc để đảm bảo thứ tự tạo
     module.network,
     module.security,
     module.storage
